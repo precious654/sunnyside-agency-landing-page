@@ -1,0 +1,33 @@
+@media (min-width: 1024px) {
+
+  .mobile-image{
+    display: none;
+  }
+
+  header{
+
+    nav{
+
+      #nav-menu{
+        display: none;
+      }
+    }
+
+    .write-up{
+      top: 200px;
+      left: 280px;
+      inline-size: 900px;
+      letter-spacing: 1rem;
+
+      h1{
+        font-size: 50px;
+      }
+
+      img{
+        margin-block-start: 80px;
+      }
+    }
+  }
+
+
+}

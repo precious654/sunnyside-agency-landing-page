@@ -1,0 +1,35 @@
+@media (max-width: 1023px) {
+
+  .desktop-image{
+    display: none;
+  }
+
+  header{
+
+    nav{
+
+      .nav-items{
+        display: none;
+      }
+
+      #nav-menu{
+        flex-wrap: nowrap;
+      }
+    }
+
+    .write-up{
+      top: 120px;
+      left: 85px;
+      width: 200px;
+      letter-spacing: 0.6rem;
+
+      img{
+        margin-block-start: 30px;
+      }
+    }
+  }
+
+
+
+
+}

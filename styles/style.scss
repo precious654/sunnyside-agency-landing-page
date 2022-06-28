@@ -1,1 +1,62 @@
 @import "config";
+@import "desktop";
+@import "mobile";
+
+body{
+  font-family: $font-one;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+header{
+  position: relative;
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 1;
+
+    a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
+    ul{
+      list-style-type: none;
+
+      li{
+        display: inline;
+        margin-inline-start: 2rem;
+      }
+    }
+
+    .nav-banner{
+      font-family: $font-two;
+      font-weight: bold;
+      font-size: 23px;
+    }
+
+    .nav-link:hover{
+      background-color: #FFFFFF;
+      padding: 10px;
+      color: #000000;
+      border-radius: 20px;
+    }
+  }
+
+  .write-up{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font-three;
+
+    img{
+      margin-inline-start: 30px;
+    }
+  }
+
+}
