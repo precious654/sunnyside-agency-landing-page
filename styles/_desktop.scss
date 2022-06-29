@@ -12,22 +12,55 @@
         display: none;
       }
     }
+  }
 
-    .write-up{
-      top: 200px;
-      left: 280px;
-      inline-size: 900px;
-      letter-spacing: 1rem;
+  .section-one{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: space-between;
 
-      h1{
-        font-size: 50px;
-      }
+    .transform{
+      grid-row: 1/2;
+      grid-column: 1/6;
+    }
 
-      img{
-        margin-block-start: 80px;
-      }
+    .transform-image{
+      grid-column: 6/12;
+    }
+
+    .stand-out{
+      grid-row: 2/3;
+      grid-column: 1/6;
+    }
+
+    .stand-out-image{
+      grid-column: 6/12;
     }
   }
 
+  .section-two{
+    display: flex;
+    gap: 0;
+  }
 
+  .section-three{
+    padding: 30px;
+
+    .profiles{
+      display: flex;
+      gap: 2rem;
+    }
+  }
+
+  .section-four{
+
+    .item-one{
+      display: flex;
+    }
+
+    .item-two{
+      display: flex;
+    }
+  }
 }
