@@ -109,8 +109,9 @@ header{
 }
 
 footer{
-  background-color:  hsl(168, 34%, 41%);
+  background-color: hsl(168, 34%, 41%);
   padding-block-start: 4rem;
+  color: hsl(167, 40%, 24%);
 
   h3{
     text-align: center;
@@ -127,6 +128,7 @@ footer{
       display: inline;
       margin-inline-start: 2rem;
       font-family: $font-one;
+      font-weight: bold;
 
       a{
         text-decoration: none;
@@ -148,6 +150,7 @@ footer{
 .attribution{
   font-size: 11px;
   text-align: center;
+  font-weight: bold;
 }
 
 .attribution a{
