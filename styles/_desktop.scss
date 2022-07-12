@@ -15,27 +15,31 @@
   }
 
   .section-one{
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-content: space-between;
 
     .transform{
+      align-self: center;
+      padding: 70px;
       grid-row: 1/2;
-      grid-column: 1/6;
+      grid-column: 1/7;
     }
 
     .transform-image{
-      grid-column: 6/12;
+      grid-column: 7/13;
     }
 
     .stand-out{
+      padding: 70px;
+      align-self: center;
       grid-row: 2/3;
-      grid-column: 1/6;
+      grid-column: 7/13;
     }
 
     .stand-out-image{
-      grid-column: 6/12;
+      grid-row: 2/3;
+      grid-column: 1/7;
     }
   }
 
@@ -45,12 +49,23 @@
   }
 
   .section-three{
-    padding: 30px;
+
+    h2{
+      text-align: center;
+    }
+
+    .job-desc{
+      text-align: center;
+    }
 
     .profiles{
-      display: flex;
-      gap: 2rem;
+
+      p:nth-of-type(1) {
+        margin-block-end: 3rem;
+        padding: 0rem 2rem;
+      }
     }
+
   }
 
   .section-four{

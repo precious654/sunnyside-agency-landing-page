@@ -13,4 +13,36 @@
       }
     }
   }
+
+  .section-one{
+
+    .stand-out{
+      text-align: center;
+      padding: 30px;
+    }
+
+    .transform{
+      text-align: center;
+      padding: 30px;
+    }
+  }
+
+  .section-three{
+
+    .profiles{
+      flex-direction: column;
+
+      p:nth-of-type(1) {
+        margin-block-end: 1.2rem;
+      }
+    }
+
+    p{
+      text-align: center;
+    }
+
+    h2{
+      text-align: center;
+    }
+  }
 }
